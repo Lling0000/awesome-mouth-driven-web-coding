@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+
+# Local installers and captured working files
+*.dmg
+downloads/
+tmp/
+
+# Dependency/build folders if contributors add demos
+node_modules/
+dist/
+build/
+.next/
+.vite/
+
+# Logs and local secrets
+*.log
+.env
+.env.*
+!.env.example

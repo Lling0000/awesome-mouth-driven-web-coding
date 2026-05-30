@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HourMint - 自由职业者时间记录工具</title>
+    <meta
+      name="description"
+      content="一个由口述 prompt 生成的自由职业者时间记录工具 landing page 示例。"
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #15161a;
+        --muted: #616772;
+        --line: #d9dee8;
+        --paper: #f7f8fb;
+        --panel: #ffffff;
+        --brand: #2255ff;
+        --brand-dark: #1739aa;
+        --accent: #22a06b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+      }
+
+      .shell {
+        width: calc(100% - 40px);
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 0;
+      }
+
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 760;
+      }
+
+      .mark {
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        color: #fff;
+        background: var(--brand);
+      }
+
+      nav {
+        display: flex;
+        gap: 18px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 32px;
+        align-items: center;
+        padding: 62px 0 54px;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--brand-dark);
+        font-weight: 720;
+      }
+
+      h1 {
+        max-width: 720px;
+        margin: 0;
+        font-size: clamp(42px, 6vw, 72px);
+        line-height: 1.02;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+      }
+
+      .lead {
+        max-width: 650px;
+        margin: 22px 0 0;
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.65;
+        overflow-wrap: anywhere;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .button {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 13px 18px;
+        color: var(--ink);
+        background: var(--panel);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .button.primary {
+        border-color: var(--brand);
+        color: #fff;
+        background: var(--brand);
+      }
+
+      .card {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.88);
+        box-shadow: 0 24px 70px rgba(24, 35, 74, 0.12);
+      }
+
+      .timer {
+        padding: 26px;
+      }
+
+      .timer-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .time {
+        margin: 26px 0 8px;
+        font-size: 54px;
+        font-weight: 780;
+      }
+
+      .project {
+        color: var(--muted);
+      }
+
+      .invoice {
+        display: grid;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .total {
+        color: var(--accent);
+        font-weight: 800;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 26px 0 70px;
+      }
+
+      .feature {
+        padding: 24px;
+      }
+
+      .feature h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+
+      .feature p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      @media (max-width: 760px) {
+        .shell {
+          max-width: 350px;
+          margin-left: 20px;
+          margin-right: auto;
+        }
+
+        nav {
+          display: none;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          padding-top: 34px;
+        }
+
+        h1 {
+          font-size: 39px;
+        }
+
+        .timer-top {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .time {
+          font-size: 48px;
+        }
+
+        .features {
+          grid-template-columns: 1fr;
+        }
+
+        .lead {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="shell">
+      <div class="logo"><span class="mark">H</span> HourMint</div>
+      <nav aria-label="Primary navigation">
+        <span>功能</span>
+        <span>价格</span>
+        <span>导出</span>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">口述 prompt 生成示例</p>
+          <h1>把每小时都变成<br />清楚账单。</h1>
+          <p class="lead">
+            HourMint 帮自由职业者记录项目时间、自动计算收入，并在月底导出可以直接发给客户的报表。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#">开始记录</a>
+            <a class="button" href="#">查看示例报表</a>
+          </div>
+        </div>
+
+        <aside class="card timer" aria-label="Time tracking preview">
+          <div class="timer-top">
+            <span>当前项目</span>
+            <strong>Brand Website</strong>
+          </div>
+          <div class="time">02:45</div>
+          <div class="project">今天已记录 3 个任务</div>
+          <div class="invoice">
+            <div class="row"><span>本周小时</span><strong>18.5h</strong></div>
+            <div class="row"><span>小时费率</span><strong>$80</strong></div>
+            <div class="row total"><span>预计收入</span><strong>$1,480</strong></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="features" aria-label="Benefits">
+        <article class="card feature">
+          <h2>少打字</h2>
+          <p>用语音说出今天做了什么，自动整理成项目、任务和时间段。</p>
+        </article>
+        <article class="card feature">
+          <h2>少漏账</h2>
+          <p>系统把零散工作合并成可核对的周报，减少月底回忆成本。</p>
+        </article>
+        <article class="card feature">
+          <h2>少解释</h2>
+          <p>一键导出客户能看懂的账单，保留任务说明和费用明细。</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

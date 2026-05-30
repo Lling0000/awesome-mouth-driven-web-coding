@@ -1,0 +1,26 @@
+name: Suggest a lesson
+description: Propose a new mouth-driven web coding lesson
+title: "lesson: "
+labels: ["lesson", "documentation"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Lesson outcome
+      description: What will learners build?
+    validations:
+      required: true
+  - type: textarea
+    id: spoken_prompt
+    attributes:
+      label: Spoken prompt
+      description: Provide the exact prompt learners should say.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot_plan
+    attributes:
+      label: Screenshot plan
+      description: Which screenshots should be included?
+    validations:
+      required: true
