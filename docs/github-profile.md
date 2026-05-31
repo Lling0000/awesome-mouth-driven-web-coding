@@ -43,6 +43,17 @@ tutorial
 
 Use `assets/hero.png` as the social preview image. It shows the real Qianwen voice input UI and makes the repo's promise obvious in the GitHub card.
 
+## Visibility Sanity Check
+
+After publishing, confirm both checks:
+
+```bash
+gh api repos/Lling0000/awesome-mouth-driven-web-coding --jq '{private,visibility,html_url}'
+curl -I -L https://github.com/Lling0000/awesome-mouth-driven-web-coding
+```
+
+For a high-star public project, both the repository and the account/profile need to be publicly reachable. If GitHub CLI reports `private: false` and `visibility: public` but a logged-out browser or curl still shows `404`, check GitHub profile visibility, account restrictions, or GitHub Support before promoting the repo.
+
 ## One-Line Pitch
 
 ```text
