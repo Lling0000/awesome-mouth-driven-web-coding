@@ -100,6 +100,23 @@ codesign -dv --verbose=4 "/Volumes/千问/Qianwen.app"
 最后告诉我你改了哪些文件。
 ```
 
+## 7. 准备词典
+
+口喷式使用越多，越应该维护千问语音词典。先把常用专有名词写进：
+
+```text
+lexicons/qianwen/base-terms.txt
+```
+
+然后运行：
+
+```bash
+node agent/lexicon-agent.mjs --input data/sample-voice-history.md --base lexicons/qianwen/base-terms.txt --out lexicons/qianwen/generated-lexicon.txt --json lexicons/qianwen/generated-lexicon.json
+node agent/qianwen-lexicon-import.mjs --lexicon lexicons/qianwen/generated-lexicon.txt --copy --open-qianwen
+```
+
+把生成的 `generated-lexicon.txt` 导入或复制到千问语音的词典/热词入口。导入适配器会生成可审阅导入包，并可把词条复制到剪贴板。更完整的每日自动化见 [SILL Agent](LEXICON_AGENT.md)。
+
 ## 常见问题
 
 **没有听写文字出现怎么办？**

@@ -8,6 +8,7 @@ Thanks for helping improve **口喷式 Web Coding 的教学**.
 - Better bilingual wording.
 - Real screenshots that clarify a step.
 - Prompt recipes with before/after results.
+- Lexicon extraction rules, import adapters, and daily dictionary workflows.
 - Broken link fixes.
 - Carefully selected additions to `AWESOME.md`.
 
@@ -36,6 +37,15 @@ Do not add:
 - Tools you have not opened or verified.
 - Huge AI-generated batches of links.
 - Resources unrelated to web building, voice input, design, debugging, or shipping.
+
+## Lexicon Contribution Rules
+
+For Qianwen lexicon additions:
+
+- Prefer stable product names, project names, APIs, tools, abbreviations, and domain terms.
+- Avoid private customer names unless the repo is private.
+- Include the source context when proposing extraction-rule changes.
+- Keep generated lexicons reviewable as text and JSON.
 
 ## Screenshot Rules
 

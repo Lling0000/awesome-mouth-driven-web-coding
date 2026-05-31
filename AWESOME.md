@@ -23,6 +23,14 @@ Curated resources for driving AI coding tools by voice: speak into Codex, Cos, C
 - [Qianwen download](https://www.qianwen.com/download) - Official download page for the Qianwen desktop client.
 - [Apple Dictation](https://support.apple.com/guide/mac-help/use-dictation-mh40584/mac) - Built-in fallback when you need basic speech-to-text without extra tools.
 
+## Lexicon and Agent Flywheels
+
+- [SILL Agent](docs/en/LEXICON_AGENT.md) - This repo's local prototype for turning spoken history into a reusable Qianwen lexicon.
+- [Base terms](lexicons/qianwen/base-terms.txt) - Seed vocabulary for product names, AI tools, shortcuts, and domain-specific words.
+- [Daily lexicon output](lexicons/qianwen/daily/2026-05-31.txt) - Example of a generated import-ready word list.
+- [Qianwen import pack](lexicons/qianwen/import/latest-import-pack.md) - Reviewable handoff for copying or importing generated terms into Qianwen.
+- [LaunchAgent template](automation/com.awesome-mouth-driven-web-coding.lexicon.plist) - macOS automation template for daily lexicon and import-pack generation.
+
 ## Web Fundamentals
 
 - [MDN Web Docs](https://developer.mozilla.org/) - The most reliable reference for HTML, CSS, JavaScript, browser APIs, and accessibility.

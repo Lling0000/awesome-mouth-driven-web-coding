@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SILL Agent Lexicon Report</title>
+    <style>
+      :root {
+        --ink: #111827;
+        --muted: #5b6472;
+        --line: #dbe3ef;
+        --paper: #f7f9fc;
+        --brand: #2657ff;
+        --green: #119b6a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      main {
+        width: min(1120px, calc(100% - 48px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 0.95fr 1.05fr;
+        gap: 24px;
+        align-items: stretch;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 18px 50px rgba(23, 31, 56, 0.08);
+      }
+
+      .intro {
+        padding: 34px;
+      }
+
+      .eyebrow {
+        color: var(--brand);
+        font-weight: 760;
+        margin: 0 0 14px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 54px;
+        line-height: 1.04;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin: 22px 0 0;
+        color: var(--muted);
+        font-size: 19px;
+        line-height: 1.7;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 26px;
+      }
+
+      .stat span {
+        color: var(--muted);
+      }
+
+      .terms {
+        padding: 28px;
+      }
+
+      .terms h2 {
+        margin: 0 0 18px;
+        font-size: 20px;
+      }
+
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .tag {
+        border: 1px solid #c8d5ff;
+        border-radius: 999px;
+        padding: 9px 12px;
+        color: #1739aa;
+        background: #f3f6ff;
+        font-weight: 680;
+      }
+
+      .ok {
+        margin-top: 24px;
+        border-left: 4px solid var(--green);
+        padding: 14px 16px;
+        color: #126142;
+        background: #effbf6;
+      }
+
+      @media (max-width: 820px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="panel intro">
+          <p class="eyebrow">SILL Agent</p>
+          <h1>把每天的口述历史变成明天的千问词典。</h1>
+          <p class="lead">
+            Agent 从语音输入、AI 对话和项目笔记中抽取专有名词，生成词表、审计 JSON 和可审阅导入包，让右 Command 口述越来越准。
+          </p>
+          <div class="stats">
+            <div class="stat"><strong>27</strong><span>terms</span></div>
+            <div class="stat"><strong>3</strong><span>outputs</span></div>
+            <div class="stat"><strong>08:30</strong><span>daily</span></div>
+          </div>
+        </div>
+
+        <div class="panel terms">
+          <h2>Generated Qianwen lexicon</h2>
+          <div class="grid">
+            <span class="tag">Qianwen Voice Input</span>
+            <span class="tag">右 Command</span>
+            <span class="tag">SILL Agent</span>
+            <span class="tag">VoiceInputLexicon</span>
+            <span class="tag">Claude Code</span>
+            <span class="tag">Codex</span>
+            <span class="tag">Cos</span>
+            <span class="tag">GitHub Topics</span>
+            <span class="tag">词典复利</span>
+            <span class="tag">每日词库</span>
+            <span class="tag">专有名词识别</span>
+            <span class="tag">高 Star 项目门面</span>
+          </div>
+          <div class="ok">Review pack + import-ready txt + scored JSON generated locally.</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -11,7 +11,7 @@ awesome-mouth-driven-web-coding
 ## Description
 
 ```text
-口喷式 Web Coding 教程：右 Command 唤起千问语音，把任务直接说进 Codex / Cos / Claude Code / AI IDE 或终端。A bilingual guide to mouth-driven AI coding with Qianwen voice input.
+口喷式 Web Coding：右 Command 调用千问语音，驱动 Codex / Cos / Claude Code，并用 SILL Agent 每日生成专有名词词典。Mouth-driven AI coding with Qianwen voice input and a daily lexicon agent.
 ```
 
 ## Website
@@ -23,6 +23,10 @@ Use the GitHub repository URL unless a GitHub Pages or demo site is later publis
 ```text
 claude-code
 codex
+lexicon-agent
+speech-to-text
+mouth-driven-coding
+qianwen-voice
 awesome
 awesome-list
 vibe-coding
@@ -42,5 +46,5 @@ Use `assets/hero.png` as the social preview image. It shows the real Qianwen voi
 ## One-Line Pitch
 
 ```text
-Hold right Command. Speak into your AI agent. Let it execute, verify, and ship.
+Hold right Command. Speak into your AI agent. Let SILL Agent turn your history into tomorrow's Qianwen lexicon.
 ```

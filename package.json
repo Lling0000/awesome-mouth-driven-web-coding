@@ -1,0 +1,23 @@
+{
+  "name": "awesome-mouth-driven-web-coding",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Mouth-driven AI coding with Qianwen voice input and a daily lexicon agent.",
+  "type": "module",
+  "scripts": {
+    "lexicon:sample": "node agent/lexicon-agent.mjs --input data/sample-voice-history.md --base lexicons/qianwen/base-terms.txt --out lexicons/qianwen/generated-lexicon.txt --json lexicons/qianwen/generated-lexicon.json",
+    "lexicon:daily": "scripts/run-daily-lexicon.sh data",
+    "lexicon:import": "node agent/qianwen-lexicon-import.mjs",
+    "check:links": "node scripts/check-local-links.mjs"
+  },
+  "keywords": [
+    "qianwen",
+    "voice-input",
+    "ai-coding",
+    "codex",
+    "claude-code",
+    "lexicon-agent",
+    "mouth-driven-coding"
+  ],
+  "license": "MIT"
+}

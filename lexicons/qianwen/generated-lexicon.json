@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-05-31T03:21:46.932Z",
+  "format": "qianwen-voice-lexicon-v1",
+  "count": 27,
+  "importHint": "Review the txt file, then import or copy it into Qianwen voice input lexicon / hotword dictionary through the available UI or adapter.",
+  "entries": [
+    {
+      "term": "AI IDE",
+      "count": 4,
+      "score": 49,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "SILL Agent",
+      "count": 4,
+      "score": 48,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "每日词库",
+      "count": 4,
+      "score": 43,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Claude Code",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Codex",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Cursor",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "GitHub Topics",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Qianwen Voice Input",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Scale AI",
+      "count": 3,
+      "score": 40,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "Cos",
+      "count": 3,
+      "score": 36,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "VoiceInputLexicon",
+      "count": 3,
+      "score": 36,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "词典复利",
+      "count": 3,
+      "score": 32,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "口喷式",
+      "count": 3,
+      "score": 32,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "右 Command",
+      "count": 2,
+      "score": 32,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "专有名词",
+      "count": 2,
+      "score": 23,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt",
+        "data/sample-voice-history.md"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "终端对话框",
+      "count": 3,
+      "score": 22,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "quoted"
+    },
+    {
+      "term": "专有名词识别",
+      "count": 3,
+      "score": 22,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "quoted"
+    },
+    {
+      "term": "高 Star",
+      "count": 1,
+      "score": 21,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "口述式",
+      "count": 1,
+      "score": 21,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "千问语音",
+      "count": 1,
+      "score": 21,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "热词库",
+      "count": 1,
+      "score": 21,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "AI Agent",
+      "count": 1,
+      "score": 21,
+      "sources": [
+        "lexicons/qianwen/base-terms.txt"
+      ],
+      "kind": "base"
+    },
+    {
+      "term": "高 Star 项目门面",
+      "count": 2,
+      "score": 20,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "quoted"
+    },
+    {
+      "term": "Agent 执行器",
+      "count": 2,
+      "score": 20,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "quoted"
+    },
+    {
+      "term": "Qwen3.6",
+      "count": 2,
+      "score": 19,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "explicit"
+    },
+    {
+      "term": "复利",
+      "count": 1,
+      "score": 11,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "explicit"
+    },
+    {
+      "term": "Qwen3",
+      "count": 1,
+      "score": 6,
+      "sources": [
+        "data/sample-voice-history.md"
+      ],
+      "kind": "mixed"
+    }
+  ]
+}

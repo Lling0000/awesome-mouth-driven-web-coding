@@ -100,6 +100,23 @@ After writing the files, capture a screenshot and check that mobile has no overf
 Finally tell me which files changed.
 ```
 
+## 7. Prepare the Lexicon
+
+The more you use mouth-driven coding, the more important the Qianwen voice lexicon becomes. Put important terms into:
+
+```text
+lexicons/qianwen/base-terms.txt
+```
+
+Then run:
+
+```bash
+node agent/lexicon-agent.mjs --input data/sample-voice-history.md --base lexicons/qianwen/base-terms.txt --out lexicons/qianwen/generated-lexicon.txt --json lexicons/qianwen/generated-lexicon.json
+node agent/qianwen-lexicon-import.mjs --lexicon lexicons/qianwen/generated-lexicon.txt --copy --open-qianwen
+```
+
+Import or copy `generated-lexicon.txt` into Qianwen's voice lexicon / hotword entry. The import adapter creates a reviewable handoff pack and can copy the terms to your clipboard. For daily automation, see [SILL Agent](LEXICON_AGENT.md).
+
 ## Troubleshooting
 
 **No text appears after speaking.**

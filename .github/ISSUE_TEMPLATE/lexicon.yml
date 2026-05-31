@@ -1,0 +1,29 @@
+name: Suggest a lexicon improvement
+description: Improve the SILL Agent term extraction or Qianwen lexicon workflow
+title: "lexicon: "
+labels: ["lexicon", "agent"]
+body:
+  - type: textarea
+    id: terms
+    attributes:
+      label: Terms or extraction case
+      description: List the terms, phrases, or transcript snippet that should be handled better.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected lexicon output
+      description: What should appear in the generated Qianwen lexicon?
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Privacy risk
+      options:
+        - Public / generic
+        - Internal but safe to describe
+        - Private; example has been anonymized
+    validations:
+      required: true
